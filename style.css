@@ -1,0 +1,149 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 10vh;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.desktop-logo {
+  display: none;
+}
+
+.baseApparel-logo {
+  height: 25px;
+}
+.mobile {
+  height: 30vh;
+  background: url(./img/hero-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.section {
+  height: 60vh;
+  padding-top: 40px;
+  text-align: center;
+}
+
+h1 {
+  letter-spacing: 15px;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+span {
+  color: rgb(230, 196, 199);
+  font-weight: 100;
+}
+
+p {
+  color: rgb(230, 196, 199);
+  max-width: 350px;
+  line-height: 1.5;
+  font-size: 1.1rem;
+  margin: 25px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 15px 25px;
+  width: 300px;
+  border-radius: 25px;
+  border: 0.8px solid rgb(230, 196, 199);
+  outline: none;
+  font-size: 1.1rem;
+}
+
+::placeholder {
+  color: rgb(230, 196, 199);
+}
+
+.btn {
+  width: 70px;
+  padding: 9px;
+  margin-left: -40px;
+  border-radius: 25px;
+  background: linear-gradient(130deg, rgb(229, 188, 191), rgb(233, 157, 163));
+  border: none;
+  box-shadow: 1px 1px 40px rgb(214, 177, 180);
+}
+
+@media screen and (min-width: 1024px) {
+  .mobile,
+  .logo {
+    display: none;
+  }
+
+  body {
+    display: flex;
+    background: url(./img/bg-pattern-desktop.svg) no-repeat;
+    background-size: cover;
+  }
+
+  .desktop {
+    background: url(./img/hero-desktop.jpg) no-repeat;
+    height: 100vh;
+    width: 40vw;
+    background-size: cover;
+  }
+
+  .desktop-logo {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 120px;
+  }
+
+  .baseApparel-logo {
+    height: 32px;
+  }
+
+  .left {
+    height: 100vh;
+    width: 60vw;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 150px;
+  }
+
+  h1,
+  p {
+    text-align: left;
+  }
+
+  h1 {
+    max-width: 350px;
+    font-size: 3.6rem;
+  }
+
+  p {
+    max-width: 400px;
+    margin-left: -5px;
+    margin-bottom: 40px;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 500;
+    word-spacing: 2;
+  }
+
+  input {
+    min-width: 340px;
+    border: 2px solid palevioletred;
+    font-size: 1rem;
+  }
+
+  .btn {
+    min-width: 90px;
+  }
+}
