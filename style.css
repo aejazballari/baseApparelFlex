@@ -44,7 +44,7 @@ p {
   color: rgb(230, 196, 199);
   max-width: 350px;
   line-height: 1.5;
-  font-size: 1.1rem;
+  font-size: 1.02rem;
   margin: 25px;
 }
 
@@ -59,7 +59,7 @@ input {
   border-radius: 25px;
   border: 0.8px solid rgb(230, 196, 199);
   outline: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 ::placeholder {
