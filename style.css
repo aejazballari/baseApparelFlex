@@ -6,7 +6,7 @@
 
 .logo {
   height: 10vh;
-  padding-top: 20px;
+  padding-top: 25px;
   padding-left: 30px;
 }
 
@@ -45,7 +45,7 @@ p {
   max-width: 350px;
   line-height: 1.5;
   font-size: 1.02rem;
-  margin: 25px;
+  margin: 20px 25px;
 }
 
 .form {
